@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>好好吃饭 · 高性价比饮食指南</title>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="面向中国日常生活的高性价比饮食建议：逐条标注性价比、证据、收益、金钱、时间与毅力，附成本收益和来源。"><title>高性价比饮食指南 · 好好吃饭</title>
 <style>
-:root{--green:#285341;--muted:#68736b;--border:#dde3da}*{box-sizing:border-box}body{margin:0;background:#fafbf7;color:#26352c;font:16px/1.8 system-ui,sans-serif}a{color:var(--green)}header{border-bottom:1px solid var(--border);padding:18px 5vw;display:flex;justify-content:space-between;align-items:center}header strong{font-size:19px}header a{font-size:13px}.layout{max-width:1280px;margin:auto;display:grid;grid-template-columns:240px 1fr;gap:52px;padding:45px 32px}aside{position:sticky;top:24px;align-self:start}aside h2{font-size:12px;color:var(--muted);letter-spacing:2px;margin:25px 0 10px}input,select{width:100%;padding:12px;border:1px solid var(--border);border-radius:7px;background:white;font:inherit}button{font:inherit;cursor:pointer;background:transparent;border:1px solid var(--border);border-radius:5px;padding:6px 10px;color:inherit}.chips{display:flex;flex-wrap:wrap;gap:7px}.chips button.active{background:var(--green);border-color:var(--green);color:white}.chapters{display:grid;gap:5px}.chapters button{text-align:left;border:0}.reset{margin-top:23px;color:var(--muted);font-size:13px}.eyebrow{font-size:12px;letter-spacing:3px;color:var(--green)}h1{font-size:44px;line-height:1.3;margin:15px 0}h1 span{font-weight:400;font-size:25px}p{margin:12px 0}.intro{color:var(--muted);max-width:680px}.note{border-left:3px solid #9bac87;padding:8px 18px;background:#f0f3e9;margin:25px 0;font-size:14px}.bar{display:flex;justify-content:space-between;border-bottom:1px solid var(--border);padding:20px 0;font-size:13px;color:var(--muted)}article{padding:26px 0;border-bottom:1px solid var(--border)}.meta{font-size:12px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap}.badge{background:#e9efdf;color:var(--green);padding:1px 8px;border-radius:4px}article h2{font-size:22px;line-height:1.5;margin:12px 0}.number{font-size:14px;color:#839180;margin-right:12px}article p{font-size:15px}.boundary{color:var(--muted);font-size:13px}summary{cursor:pointer;color:var(--green);font-size:13px}details p{font-size:13px}.empty{text-align:center;padding:60px 0}footer{padding:35px 0;font-size:12px;color:var(--muted)}@media(max-width:760px){.layout{display:block;padding:25px 20px}aside{position:static;border-bottom:1px solid var(--border);padding-bottom:25px;margin-bottom:30px}.chapters{grid-template-columns:1fr 1fr}h1{font-size:34px}header{padding:15px 20px}.bar{gap:20px}}
-</style>
-<header><strong>好好吃饭 <span style="font-weight:400;font-size:12px;color:#68736b">/ 中国日常饮食建议</span></strong><a href="https://github.com/Eiei2007/HowToEatBetter">GitHub ↗</a></header>
-<div class="layout"><aside aria-label="筛选建议"><input id="search" aria-label="搜索建议" placeholder="搜索：奶茶、外卖、盐…"><h2>章节</h2><div class="chapters" id="chapters"></div><h2>性价比 · 编辑判断</h2><div class="chips" id="value"></div><h2>我的场景</h2><select id="scene" aria-label="我的场景"><option value="">全部场景</option><option>通用</option><option>外卖食堂</option><option>自己做饭</option><option>特殊情况</option></select><h2>花钱</h2><div class="chips" id="money"></div><button class="reset" id="reset">清空筛选 ↺</button></aside>
-<main><div class="eyebrow">HOW TO EAT BETTER · 初版 2026.11</div><h1>高性价比饮食指南<br><span>把每一顿，吃得更值得。</span></h1><p class="intro">不必顿顿水煮，也不用追着“超级食物”买单。从食堂、外卖和家常菜出发，用普通食物、有限预算和做得到的小改变，好好吃饭。</p><div class="note">先挑一两条就够。每条写清成本、做法、收益与边界。性价比是编辑判断，依据单独列出；不把饮食建议换算成“多活几年”。</div><div class="bar"><span id="count" aria-live="polite"></span><span>6 章 · 22 条 · 附原始来源</span></div><div id="list"></div><footer><p>面向一般健康成年人。疾病、孕期、儿童及特殊营养需求须结合专业指导。指南依据不等于每种场景做法都经过临床试验。</p><p>结构灵感来自 <a href="https://eternity4719.github.io/HowToLiveBetter/">HowToLiveBetter</a>，正文与代码重新编写。<a href="https://github.com/Eiei2007/HowToEatBetter/blob/main/docs/SOURCES.md">来源与核实状态 ↗</a></p></footer></main></div>
+:root{color-scheme:light;--bg:#fff;--panel:#f6f6f6;--text:#39393d;--muted:#7a7a80;--line:#e1e1e5;--accent:#5358a5;--callout:#e9e8fa;--green-bg:#dcefe3;--green:#286349;--yellow-bg:#fff0c6;--yellow:#805d13;--gray-bg:#e9e9ed;--gray:#62626c}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.85 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}body.dark{color-scheme:dark;--bg:#1d1d22;--panel:#27272d;--text:#e3e3e9;--muted:#a6a6b3;--line:#3c3c47;--accent:#b5b7ff;--callout:#34344e;--green-bg:#243f32;--green:#a0d8b6;--yellow-bg:#493d22;--yellow:#f1d491;--gray-bg:#393943;--gray:#c3c3cc}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}button,input{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:3px}.top{height:64px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:22px;padding:0 24px;position:sticky;top:0;background:var(--bg);z-index:3}.brand{font-weight:650;color:var(--text);white-space:nowrap}.logo{display:inline-grid;place-items:center;width:25px;height:25px;background:#6366b8;color:white;border-radius:6px;margin-right:10px}.search{margin-left:auto;width:min(520px,45vw);position:relative}.search input{background:var(--panel);border:1px solid transparent;border-radius:8px;width:100%;padding:9px 14px;color:var(--text);font-size:14px}.top-links{display:flex;gap:20px;align-items:center;font-size:13px}.theme,.mobile-toggle{background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:18px;padding:2px 10px}.mobile-toggle{display:none}.sidebar{position:fixed;top:64px;bottom:0;width:272px;background:var(--panel);padding:22px 28px 36px 32px;overflow-y:auto;font-size:13px}.group{padding:16px 0;border-bottom:1px solid var(--line)}.group:first-child{padding-top:4px}.group-label{font-weight:650;margin:0 0 8px}.hint{color:var(--muted);font-size:11px;font-weight:400;display:block}.chips{display:flex;gap:6px;flex-wrap:wrap}.chip{background:var(--bg);border:1px solid var(--line);color:var(--gray);border-radius:15px;font-size:12px;padding:1px 10px;line-height:1.8}.chip[aria-pressed=true]{background:var(--accent);color:var(--bg);border-color:var(--accent)}.chapter-btn{display:flex;justify-content:space-between;gap:12px;width:100%;border:0;background:transparent;text-align:left;color:var(--text);font-size:13px;padding:6px 0}.chapter-btn[aria-pressed=true]{color:var(--accent);font-weight:650}.chapter-btn small{color:var(--muted);font-weight:400}.reset{border:1px solid var(--line);color:var(--text);background:var(--bg);border-radius:5px;padding:5px 13px;margin-top:18px;font-size:12px}.filter-note{font-size:11px;color:var(--muted);margin-top:16px;line-height:1.8}main{margin-left:272px;max-width:1120px;padding:36px 54px 70px}h1{font-size:30px;line-height:1.4;margin:0 0 10px;letter-spacing:-.5px}.intro{font-size:15px;color:var(--gray);line-height:1.9}.intro p{margin:5px 0}.count{font-size:13px;color:var(--muted);margin:12px 0}.count strong{color:var(--accent)}.utility{font-size:13px;color:var(--muted);margin:9px 0}.legend{border:1px solid var(--line);border-radius:8px;padding:8px 15px;margin:18px 0 34px;font-size:13px;color:var(--gray)}summary{cursor:pointer}.legend p{margin:8px 0}.section{border-top:1px solid var(--line);padding-top:22px;margin-top:28px}.section-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}.section-head h2{font-size:23px;margin:0}.section-head span{font-size:12px;color:var(--muted)}.section-intro{font-size:13px;color:var(--gray);margin:0 0 18px}.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:22px 24px 16px;margin:16px 0;scroll-margin-top:85px}.card-head{display:flex;align-items:baseline;gap:18px}.idx{color:var(--muted);font-size:13px;flex-shrink:0}.card h3{font-size:18px;line-height:1.6;margin:0 0 9px;font-weight:650}.anchor{margin-left:auto;font-size:14px}.tags{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}.tag{font-size:12px;line-height:1.65;padding:1px 9px;border-radius:12px;white-space:nowrap}.green{background:var(--green-bg);color:var(--green)}.yellow{background:var(--yellow-bg);color:var(--yellow)}.gray{background:var(--gray-bg);color:var(--gray)}.purple{color:var(--accent);background:var(--callout)}.advice{background:var(--callout);border-left:3px solid #6667b6;border-radius:0 6px 6px 0;padding:10px 14px;margin:0 0 14px;font-size:14px;line-height:1.85}.facts{display:grid;grid-template-columns:30px 1fr;column-gap:12px;row-gap:9px;font-size:13px;line-height:1.9;margin:0}.facts dt{color:var(--muted)}.facts dd{margin:0}.sources{margin-top:17px;border-top:1px solid var(--line);padding-top:9px;color:var(--gray);font-size:12px}.sources ul{margin:7px 0;padding-left:20px}.sources p{margin:7px 0}.empty{border:1px dashed var(--line);padding:45px 20px;text-align:center;border-radius:8px;color:var(--muted)}footer{border-top:1px solid var(--line);padding-top:20px;margin-top:35px;font-size:12px;color:var(--muted)}[hidden]{display:none!important}@media(min-width:1500px){main{margin-right:auto}}@media(max-width:900px){.top{gap:12px;padding:0 16px}.top-links{gap:12px}.top-links .readme-link{display:none}.sidebar{width:235px;padding:20px}main{margin-left:235px;padding:30px 26px}.brand{font-size:14px}.card{padding:18px}}@media(max-width:650px){.top{height:auto;min-height:64px;flex-wrap:wrap;padding:12px 16px;gap:10px}.brand{flex:1}.search{width:100%;order:4;margin:0}.top-links{font-size:12px}.mobile-toggle{display:inline-block;font-size:12px}.sidebar{display:none;position:static;width:auto;max-height:none;padding:20px}.sidebar.open{display:block}.sidebar .group{padding:12px 0}main{margin-left:0;padding:25px 18px}h1{font-size:25px}.card{padding:17px 15px}.card-head{gap:10px}.card h3{font-size:17px}.facts{grid-template-columns:28px 1fr;gap:8px}.tag{font-size:11px;padding:2px 8px}.section-head h2{font-size:21px}.legend{margin-bottom:22px}}
+</style></head><body>
+<header class="top"><a class="brand" href="./"><span class="logo">✓</span>高性价比饮食指南</a><div class="search"><input id="q" type="search" aria-label="搜索条目" placeholder="⌕  搜索条目，例如：盐、外卖、豆腐"></div><nav class="top-links"><a class="readme-link" href="https://github.com/Eiei2007/HowToEatBetter#readme">README</a><a href="https://github.com/Eiei2007/HowToEatBetter">GitHub ↗</a><button class="theme" id="theme" aria-label="切换深色模式">☼</button><button class="mobile-toggle" id="mobile" aria-expanded="false" aria-controls="sidebar">筛选</button></nav></header>
+<aside class="sidebar" id="sidebar" aria-label="筛选条目"><div class="group"><div class="group-label">我的场景<span class="hint">没选时显示全部建议</span></div><div class="chips" id="f-scene" role="group" aria-label="场景筛选"></div></div><div class="group"><div class="group-label">章节</div><div id="chapters" role="group" aria-label="章节筛选"></div></div><div id="filters"></div><button class="reset" id="reset">清空筛选</button><p class="filter-note">同一组多选是“或”，不同组之间是“且”。章节一次只看一个。等级为编辑判断；细节与条件见每条备注。</p></aside>
+<main><h1>高性价比饮食指南</h1><div class="intro"><p>每一条都回答两个问题：花掉什么，换回什么。</p><p>从中国人的厨房、食堂和外卖出发，把钱、时间和毅力花在更值得的改变上。</p><p>不用全做。这是一份备选单，先挑一两条最容易的就够。想找省力的，左边选择“<b>不花钱</b>”“<b>顺手</b>”“<b>不用</b>”。</p></div><p class="count" id="count" aria-live="polite"></p><p class="utility">评级说明：<span class="tag green">证据 A 级</span>随机试验支持所写结局 · <span class="tag yellow">证据 B 级</span>观察研究 · <span class="tag gray">证据 C 级</span>指南 / 共识 / 执行建议</p><p class="utility">文档：<a href="https://github.com/Eiei2007/HowToEatBetter/blob/main/docs/RATINGS.md">评级口径</a> · <a href="https://github.com/Eiei2007/HowToEatBetter/blob/main/docs/SOURCES.md">来源核实记录</a> · 更新于 2026-11-05</p><details class="legend"><summary>怎么看这些标签与证据等级</summary><p>性价比、成本和毅力是编辑估计；同类目标内比较，不把寿命、钱和时间混成一个分数。“不花钱”指通常无需额外购买，具体条件见成本栏。</p><p>A 级对应随机试验或其系统综述支持的具体结局；B 级表示长期收益主要来自观察研究，不能直接证明因果；C 级表示指南、公共卫生共识或编辑执行建议。这是简化阅读分组，并非正式 GRADE 质量评价。</p><p>“换寿命”仅表示依据涉及死亡风险，不承诺多活几年；血压和体重等结局归“换健康”。点餐、购物等具体做法可能是对研究原则的应用，备注中会说明。不要把所有条目看成同一强度的医疗建议。</p></details><div id="list"></div><footer><p>适用于一般健康成年人。特殊疾病、孕期、儿童及其他营养需求须另行评估。来源的核实范围见每条展开内容；成本与收益不作统一货币换算。</p><p>版式与信息结构参考 <a href="https://eternity4719.github.io/HowToLiveBetter/">HowToLiveBetter</a>（原项目标注 CC BY 4.0）。本项目正文与代码重新编写。</p></footer></main>
 <script>const DATA={
   "sources": {
     "CN": [
@@ -23,6 +23,22 @@
     "SAFE": [
       "WHO：食品安全",
       "https://www.who.int/news-room/fact-sheets/detail/food-safety"
+    ],
+    "SUGAR_RCT": [
+      "Te Morenga 等，BMJ 2013：膳食糖与体重，随机试验及队列研究的系统综述",
+      "https://www.bmj.com/content/346/bmj.e7492"
+    ],
+    "SODIUM_RCT": [
+      "Huang 等，BMJ 2020：减钠与血压，随机试验系统综述",
+      "https://www.bmj.com/content/368/bmj.m315"
+    ],
+    "PRODUCE": [
+      "Wang 等，BMJ 2014：蔬果摄入与死亡风险，前瞻性队列研究荟萃分析",
+      "https://www.bmj.com/content/349/bmj.g4490"
+    ],
+    "FIBRE": [
+      "Reynolds 等，Lancet 2019：碳水化合物质量与健康，系统综述与荟萃分析",
+      "https://pubmed.ncbi.nlm.nih.gov/30638909/"
     ]
   },
   "items": [
@@ -30,7 +46,7 @@
       "chapter": "先改最划算的",
       "title": "把日常甜饮料换成白水",
       "value": "极高",
-      "money": "省钱",
+      "money": "不花钱",
       "time": "顺手",
       "scene": "通用",
       "source": "WHO",
@@ -38,13 +54,27 @@
       "benefit": "减少游离糖摄入；原本常买饮料的人也能省钱。",
       "boundary": "无糖点单不保证整杯没有糖，奶盖、珍珠和预调原料也要算。",
       "id": 1,
-      "basis": "指南/公共卫生建议"
+      "basis": "随机试验及其系统综述（对应具体结局）",
+      "effort": "一点",
+      "returns": [
+        "健康",
+        "钱"
+      ],
+      "evidence": "A",
+      "evidenceNote": "随机试验系统综述支持减少膳食糖与体重变化的关系；A 级对应控糖与体重这一原则，不代表每种奶茶点单方式都做过试验。",
+      "sourceKeys": [
+        "WHO",
+        "SUGAR_RCT"
+      ],
+      "cost": "不额外花钱，原本购买甜饮料的人通常能省钱。点单或购物时顺手替换；习惯甜味的人需要一点适应。",
+      "benefitDetail": "减少游离糖摄入；原本常买饮料的人也能省钱。 在自由进食的成人试验中，减少膳食糖与体重降低有关；若把少掉的能量从别处吃回来，效果可能不同。",
+      "remark": "无糖点单不保证整杯没有糖，奶盖、珍珠和预调原料也要算。 随机试验系统综述支持减少膳食糖与体重变化的关系；A 级对应控糖与体重这一原则，不代表每种奶茶点单方式都做过试验。"
     },
     {
       "chapter": "先改最划算的",
       "title": "少喝菜汤，蘸料分开放",
       "value": "极高",
-      "money": "不增加",
+      "money": "不花钱",
       "time": "顺手",
       "scene": "外卖食堂",
       "source": "SALT",
@@ -52,13 +82,26 @@
       "benefit": "更容易减少钠摄入。",
       "boundary": "不喝汤不能抵消食材和酱料里的盐。",
       "id": 2,
-      "basis": "指南/公共卫生建议"
+      "basis": "随机试验及其系统综述（对应具体结局）",
+      "effort": "一点",
+      "returns": [
+        "健康"
+      ],
+      "evidence": "A",
+      "evidenceNote": "随机试验系统综述支持减钠降低血压；少喝汤、少放酱料和点餐备注是实现原则的方法，并非每种方法都有单独随机试验。",
+      "sourceKeys": [
+        "SALT",
+        "SODIUM_RCT"
+      ],
+      "cost": "不额外花钱。不喝汤、蘸料另放只改变吃法，基本不占额外时间；口味调整需要一点毅力。",
+      "benefitDetail": "更容易减少钠摄入。 减钠试验的汇总结果支持血压改善；本条不把血压变化直接换算成个人寿命增加。",
+      "remark": "不喝汤不能抵消食材和酱料里的盐。 随机试验系统综述支持减钠降低血压；少喝汤、少放酱料和点餐备注是实现原则的方法，并非每种方法都有单独随机试验。"
     },
     {
       "chapter": "先改最划算的",
       "title": "先给蔬菜留一个位置",
       "value": "极高",
-      "money": "少量",
+      "money": "少",
       "time": "顺手",
       "scene": "外卖食堂",
       "source": "CN",
@@ -66,13 +109,27 @@
       "benefit": "减少一餐只有饭和肉的情况。",
       "boundary": "具体份量依一天总量调整，重油蔬菜也要留意。",
       "id": 3,
-      "basis": "指南/公共卫生建议"
+      "basis": "观察性研究及其汇总（相关性）",
+      "effort": "一点",
+      "returns": [
+        "寿命",
+        "健康"
+      ],
+      "evidence": "B",
+      "evidenceNote": "长期结局依据主要来自前瞻性队列及其汇总研究，不能排除生活方式等混杂因素；本项目按 B 级标注。",
+      "sourceKeys": [
+        "CN",
+        "PRODUCE"
+      ],
+      "cost": "原本缺蔬菜时可能要多买一份，价格取决于食堂或商家。点单顺手选择；要把它变成习惯。",
+      "benefitDetail": "减少一餐只有饭和肉的情况。 队列汇总中，较高的蔬果摄入与较低总死亡风险相关；不是对个人寿命的保证，也不意味着无限增加份量。",
+      "remark": "具体份量依一天总量调整，重油蔬菜也要留意。 长期结局依据主要来自前瞻性队列及其汇总研究，不能排除生活方式等混杂因素；本项目按 B 级标注。"
     },
     {
       "chapter": "先改最划算的",
       "title": "买水果，别用果汁顶替",
       "value": "高",
-      "money": "少量",
+      "money": "少",
       "time": "顺手",
       "scene": "通用",
       "source": "CN",
@@ -80,13 +137,27 @@
       "benefit": "把吃水果变成容易维持的习惯。",
       "boundary": "果汁不能等量替代完整水果；水果也不是越多越好。",
       "id": 4,
-      "basis": "指南/公共卫生建议"
+      "basis": "观察性研究及其汇总（相关性）",
+      "effort": "不用",
+      "returns": [
+        "寿命",
+        "健康"
+      ],
+      "evidence": "B",
+      "evidenceNote": "长期结局依据主要来自前瞻性队列及其汇总研究，不能排除生活方式等混杂因素；本项目按 B 级标注。",
+      "sourceKeys": [
+        "CN",
+        "PRODUCE"
+      ],
+      "cost": "买普通当季水果即可，不要求进口或高价品种。洗切需要少量时间；放在容易拿到的位置更省力。",
+      "benefitDetail": "把吃水果变成容易维持的习惯。 队列汇总中，较高的蔬果摄入与较低总死亡风险相关；不是对个人寿命的保证，也不意味着无限增加份量。",
+      "remark": "果汁不能等量替代完整水果；水果也不是越多越好。 长期结局依据主要来自前瞻性队列及其汇总研究，不能排除生活方式等混杂因素；本项目按 B 级标注。"
     },
     {
       "chapter": "吃什么更值",
       "title": "把一部分精米白面换成全谷杂豆",
       "value": "高",
-      "money": "少量",
+      "money": "少",
       "time": "几分钟",
       "scene": "自己做饭",
       "source": "WHO",
@@ -94,13 +165,27 @@
       "benefit": "增加膳食纤维来源。",
       "boundary": "按耐受情况循序增加；有特殊胃肠疾病者另行调整。",
       "id": 5,
-      "basis": "指南/公共卫生建议"
+      "basis": "观察性研究及其汇总（相关性）",
+      "effort": "一点",
+      "returns": [
+        "寿命",
+        "健康"
+      ],
+      "evidence": "B",
+      "evidenceNote": "综述同时包含队列和干预研究；死亡风险结局主要来自观察研究，因此本条长期收益按 B 级标注。",
+      "sourceKeys": [
+        "WHO",
+        "FIBRE"
+      ],
+      "cost": "杂粮价格因品种而异，可从少量替换开始。部分杂豆要提前浸泡或延长烹煮，前期多花一点准备时间。",
+      "benefitDetail": "增加膳食纤维来源。 系统综述中较高膳食纤维及全谷物摄入与较低慢性病和死亡风险相关，观察性结果不能直接解释为因果。",
+      "remark": "按耐受情况循序增加；有特殊胃肠疾病者另行调整。 综述同时包含队列和干预研究；死亡风险结局主要来自观察研究，因此本条长期收益按 B 级标注。"
     },
     {
       "chapter": "吃什么更值",
       "title": "让豆腐成为常备菜",
       "value": "高",
-      "money": "少量",
+      "money": "少",
       "time": "几分钟",
       "scene": "自己做饭",
       "source": "CN",
@@ -108,13 +193,25 @@
       "benefit": "增加食物多样性，采购也比较方便。",
       "boundary": "咸豆干要看钠；豆制品不是任何疾病下都能不限量吃。",
       "id": 6,
-      "basis": "指南/公共卫生建议"
+      "basis": "指南 / 共识 / 编辑执行建议",
+      "effort": "不用",
+      "returns": [
+        "健康"
+      ],
+      "evidence": "C",
+      "evidenceNote": "目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。",
+      "sourceKeys": [
+        "CN"
+      ],
+      "cost": "需要购买豆制品，可替换一部分原有肉菜，实际总价可能升也可能降。跟家常菜一起做，不必另开一餐。",
+      "benefitDetail": "增加食物多样性，采购也比较方便。",
+      "remark": "咸豆干要看钠；豆制品不是任何疾病下都能不限量吃。 目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。"
     },
     {
       "chapter": "吃什么更值",
       "title": "奶类先选喝得惯、买得起的",
       "value": "高",
-      "money": "少量",
+      "money": "少",
       "time": "顺手",
       "scene": "通用",
       "source": "CN",
@@ -122,13 +219,25 @@
       "benefit": "增加奶类摄入的可持续性。",
       "boundary": "乳饮料不等同于奶；过敏者应回避，乳糖不耐受者按耐受选择。",
       "id": 7,
-      "basis": "指南/公共卫生建议"
+      "basis": "指南 / 共识 / 编辑执行建议",
+      "effort": "不用",
+      "returns": [
+        "健康"
+      ],
+      "evidence": "C",
+      "evidenceNote": "目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。",
+      "sourceKeys": [
+        "CN"
+      ],
+      "cost": "需要稳定的奶类预算；不必追求高端包装。购买和饮用顺手完成，按耐受情况调整。",
+      "benefitDetail": "增加奶类摄入的可持续性。",
+      "remark": "乳饮料不等同于奶；过敏者应回避，乳糖不耐受者按耐受选择。 目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。"
     },
     {
       "chapter": "吃什么更值",
       "title": "肉类轮换，别总靠香肠腊肉",
       "value": "高",
-      "money": "不增加",
+      "money": "不花钱",
       "time": "顺手",
       "scene": "通用",
       "source": "WHO",
@@ -136,13 +245,25 @@
       "benefit": "改善蛋白质来源组合，减少加工肉依赖。",
       "boundary": "不是吃了某一种肉就一定患病，关注长期频率与总量。",
       "id": 8,
-      "basis": "指南/公共卫生建议"
+      "basis": "指南 / 共识 / 编辑执行建议",
+      "effort": "一点",
+      "returns": [
+        "健康"
+      ],
+      "evidence": "C",
+      "evidenceNote": "目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。",
+      "sourceKeys": [
+        "WHO"
+      ],
+      "cost": "替换原有肉类预算，不要求额外增加一份肉。购物点单顺手换，改变口味偏好需要一点毅力。",
+      "benefitDetail": "改善蛋白质来源组合，减少加工肉依赖。",
+      "remark": "不是吃了某一种肉就一定患病，关注长期频率与总量。 目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。"
     },
     {
       "chapter": "吃什么更值",
       "title": "坚果吃原味小份",
       "value": "一般",
-      "money": "少量",
+      "money": "少",
       "time": "顺手",
       "scene": "通用",
       "source": "WHO",
@@ -150,13 +271,25 @@
       "benefit": "增加不饱和脂肪来源。",
       "boundary": "能量较高，优先替代其他零食；坚果过敏者不适用。",
       "id": 9,
-      "basis": "指南/公共卫生建议"
+      "basis": "指南 / 共识 / 编辑执行建议",
+      "effort": "一点",
+      "returns": [
+        "健康"
+      ],
+      "evidence": "C",
+      "evidenceNote": "目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。",
+      "sourceKeys": [
+        "WHO"
+      ],
+      "cost": "需要少量零食预算。提前分一小份，避免边吃边抓；控制份量需要一点毅力。",
+      "benefitDetail": "增加不饱和脂肪来源。",
+      "remark": "能量较高，优先替代其他零食；坚果过敏者不适用。 目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。"
     },
     {
       "chapter": "中国人的厨房",
       "title": "油先倒进量具，别凭手感",
       "value": "高",
-      "money": "不增加",
+      "money": "不花钱",
       "time": "几分钟",
       "scene": "自己做饭",
       "source": "WHO",
@@ -164,13 +297,25 @@
       "benefit": "让用油量变得可见。",
       "boundary": "不是完全不吃油；同时关注油的种类和整体饮食。",
       "id": 10,
-      "basis": "指南/公共卫生建议"
+      "basis": "指南 / 共识 / 编辑执行建议",
+      "effort": "一点",
+      "returns": [
+        "健康"
+      ],
+      "evidence": "C",
+      "evidenceNote": "目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。",
+      "sourceKeys": [
+        "WHO"
+      ],
+      "cost": "可以先用家里已有的小勺或量具，不必专门买设备。开始记录用油要花几分钟，习惯后负担较小。",
+      "benefitDetail": "让用油量变得可见。",
+      "remark": "不是完全不吃油；同时关注油的种类和整体饮食。 目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。"
     },
     {
       "chapter": "中国人的厨房",
       "title": "盐、酱油、蚝油放在一起算",
       "value": "极高",
-      "money": "不增加",
+      "money": "不花钱",
       "time": "顺手",
       "scene": "自己做饭",
       "source": "SALT",
@@ -178,13 +323,26 @@
       "benefit": "减少重复调味造成的钠摄入。",
       "boundary": "成人每日盐目标包含调味品和食物里的盐，不只盐罐里的盐。",
       "id": 11,
-      "basis": "指南/公共卫生建议"
+      "basis": "随机试验及其系统综述（对应具体结局）",
+      "effort": "一点",
+      "returns": [
+        "健康"
+      ],
+      "evidence": "A",
+      "evidenceNote": "随机试验系统综述支持减钠降低血压；少喝汤、少放酱料和点餐备注是实现原则的方法，并非每种方法都有单独随机试验。",
+      "sourceKeys": [
+        "SALT",
+        "SODIUM_RCT"
+      ],
+      "cost": "不额外花钱，还可能少用调味料。做饭时顺手少放，适应清淡口味需要一点毅力。",
+      "benefitDetail": "减少重复调味造成的钠摄入。 减钠试验的汇总结果支持血压改善；本条不把血压变化直接换算成个人寿命增加。",
+      "remark": "成人每日盐目标包含调味品和食物里的盐，不只盐罐里的盐。 随机试验系统综述支持减钠降低血压；少喝汤、少放酱料和点餐备注是实现原则的方法，并非每种方法都有单独随机试验。"
     },
     {
       "chapter": "中国人的厨房",
       "title": "生熟分开，先保住食品安全",
       "value": "极高",
-      "money": "不增加",
+      "money": "不花钱",
       "time": "几分钟",
       "scene": "自己做饭",
       "source": "SAFE",
@@ -192,13 +350,25 @@
       "benefit": "减少交叉污染与食源性疾病风险。",
       "boundary": "同一块案板轮用时需要充分清洁，不能只随手擦一下。",
       "id": 12,
-      "basis": "指南/公共卫生建议"
+      "basis": "指南 / 共识 / 编辑执行建议",
+      "effort": "不用",
+      "returns": [
+        "健康"
+      ],
+      "evidence": "C",
+      "evidenceNote": "食品安全的公共卫生建议与微生物学原则；没有据此编造家庭操作能减少多少死亡的数字。",
+      "sourceKeys": [
+        "SAFE"
+      ],
+      "cost": "已有清洁用品时不额外花钱；不足时需补充。每次处理生食后清洗手和工具，会占用几分钟。",
+      "benefitDetail": "减少交叉污染与食源性疾病风险。",
+      "remark": "同一块案板轮用时需要充分清洁，不能只随手擦一下。 食品安全的公共卫生建议与微生物学原则；没有据此编造家庭操作能减少多少死亡的数字。"
     },
     {
       "chapter": "中国人的厨房",
       "title": "剩菜及时冷藏，复热要彻底",
       "value": "极高",
-      "money": "不增加",
+      "money": "不花钱",
       "time": "几分钟",
       "scene": "自己做饭",
       "source": "SAFE",
@@ -206,13 +376,25 @@
       "benefit": "降低食物储存不当带来的风险。",
       "boundary": "闻起来正常不代表安全；冷藏和复热不能挽救已经变质的食物。",
       "id": 13,
-      "basis": "指南/公共卫生建议"
+      "basis": "指南 / 共识 / 编辑执行建议",
+      "effort": "不用",
+      "returns": [
+        "健康"
+      ],
+      "evidence": "C",
+      "evidenceNote": "食品安全的公共卫生建议与微生物学原则；没有据此编造家庭操作能减少多少死亡的数字。",
+      "sourceKeys": [
+        "SAFE"
+      ],
+      "cost": "已有冰箱和容器时通常不需新增购买，但仍有少量用电与清洁成本。分装、冷藏与复热要花几分钟。",
+      "benefitDetail": "降低食物储存不当带来的风险。",
+      "remark": "闻起来正常不代表安全；冷藏和复热不能挽救已经变质的食物。 食品安全的公共卫生建议与微生物学原则；没有据此编造家庭操作能减少多少死亡的数字。"
     },
     {
       "chapter": "外卖与食堂",
       "title": "点一份能看清组成的饭",
       "value": "高",
-      "money": "不增加",
+      "money": "不花钱",
       "time": "顺手",
       "scene": "外卖食堂",
       "source": "CN",
@@ -220,13 +402,25 @@
       "benefit": "更容易发现这一餐少了哪一类。",
       "boundary": "这是按膳食指南设计的点餐方法，不是对所有套餐的营养认证。",
       "id": 14,
-      "basis": "指南/公共卫生建议"
+      "basis": "指南 / 共识 / 编辑执行建议",
+      "effort": "不用",
+      "returns": [
+        "健康"
+      ],
+      "evidence": "C",
+      "evidenceNote": "目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。",
+      "sourceKeys": [
+        "CN"
+      ],
+      "cost": "在现有预算内调整套餐组成；如果蔬菜另收费，总价可能增加。点单顺手查看，不要求另学复杂食谱。",
+      "benefitDetail": "更容易发现这一餐少了哪一类。",
+      "remark": "这是按膳食指南设计的点餐方法，不是对所有套餐的营养认证。 目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。"
     },
     {
       "chapter": "外卖与食堂",
       "title": "少盐少油写备注，也看实际菜品",
       "value": "高",
-      "money": "不增加",
+      "money": "不花钱",
       "time": "顺手",
       "scene": "外卖食堂",
       "source": "SALT",
@@ -234,13 +428,26 @@
       "benefit": "给减少钠摄入创造条件。",
       "boundary": "商家未必执行；预先腌制的菜也无法靠备注完全减盐。",
       "id": 15,
-      "basis": "指南/公共卫生建议"
+      "basis": "随机试验及其系统综述（对应具体结局）",
+      "effort": "不用",
+      "returns": [
+        "健康"
+      ],
+      "evidence": "A",
+      "evidenceNote": "随机试验系统综述支持减钠降低血压；少喝汤、少放酱料和点餐备注是实现原则的方法，并非每种方法都有单独随机试验。",
+      "sourceKeys": [
+        "SALT",
+        "SODIUM_RCT"
+      ],
+      "cost": "不额外花钱。写备注和选择菜品只需片刻；商家是否执行仍要看实际成品。",
+      "benefitDetail": "给减少钠摄入创造条件。 减钠试验的汇总结果支持血压改善；本条不把血压变化直接换算成个人寿命增加。",
+      "remark": "商家未必执行；预先腌制的菜也无法靠备注完全减盐。 随机试验系统综述支持减钠降低血压；少喝汤、少放酱料和点餐备注是实现原则的方法，并非每种方法都有单独随机试验。"
     },
     {
       "chapter": "外卖与食堂",
       "title": "聚餐按人数点，吃够就停",
       "value": "高",
-      "money": "省钱",
+      "money": "不花钱",
       "time": "顺手",
       "scene": "外卖食堂",
       "source": "CN",
@@ -248,13 +455,26 @@
       "benefit": "减少被动多吃和浪费。",
       "boundary": "剩余食物能否打包要考虑保存条件，不能只看价格。",
       "id": 16,
-      "basis": "指南/公共卫生建议"
+      "basis": "指南 / 共识 / 编辑执行建议",
+      "effort": "一点",
+      "returns": [
+        "健康",
+        "钱"
+      ],
+      "evidence": "C",
+      "evidenceNote": "目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。",
+      "sourceKeys": [
+        "CN"
+      ],
+      "cost": "少点超出需要的菜通常可以省钱。按人数点单顺手完成；面对凑单和面子压力可能需要一点毅力。",
+      "benefitDetail": "减少被动多吃和浪费。",
+      "remark": "剩余食物能否打包要考虑保存条件，不能只看价格。 目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。"
     },
     {
       "chapter": "少交饮食学费",
       "title": "别为养生主动开始喝酒",
       "value": "极高",
-      "money": "省钱",
+      "money": "不花钱",
       "time": "顺手",
       "scene": "通用",
       "source": "WHO",
@@ -262,13 +482,26 @@
       "benefit": "避免把酒当作保健品。",
       "boundary": "不存在适合所有人的安全饮酒保证，少喝不等于没有风险。",
       "id": 17,
-      "basis": "指南/公共卫生建议"
+      "basis": "指南 / 共识 / 编辑执行建议",
+      "effort": "很多",
+      "returns": [
+        "健康",
+        "钱"
+      ],
+      "evidence": "C",
+      "evidenceNote": "目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。",
+      "sourceKeys": [
+        "WHO"
+      ],
+      "cost": "不买酒可以省钱。不喝酒的人无需额外行动；经常饮酒或有社交压力的人可能需要很多毅力。",
+      "benefitDetail": "避免把酒当作保健品。",
+      "remark": "不存在适合所有人的安全饮酒保证，少喝不等于没有风险。 已有酒精依赖或停酒后出现手抖、心慌等戒断症状的人，应寻求医疗帮助，不自行骤停。 目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。"
     },
     {
       "chapter": "少交饮食学费",
       "title": "别只盯“零蔗糖”三个字",
       "value": "高",
-      "money": "不增加",
+      "money": "不花钱",
       "time": "顺手",
       "scene": "通用",
       "source": "WHO",
@@ -276,13 +509,25 @@
       "benefit": "减少被健康标签带着走的机会。",
       "boundary": "零蔗糖不等于无糖，也不代表低能量或能无限吃。",
       "id": 18,
-      "basis": "指南/公共卫生建议"
+      "basis": "指南 / 共识 / 编辑执行建议",
+      "effort": "不用",
+      "returns": [
+        "健康"
+      ],
+      "evidence": "C",
+      "evidenceNote": "目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。",
+      "sourceKeys": [
+        "WHO"
+      ],
+      "cost": "不额外花钱。刚开始看标签需要几分钟，熟悉后能顺手比较；不必为宣传词支付溢价。",
+      "benefitDetail": "减少被健康标签带着走的机会。",
+      "remark": "零蔗糖不等于无糖，也不代表低能量或能无限吃。 目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。"
     },
     {
       "chapter": "少交饮食学费",
       "title": "先把普通食物吃好，再考虑升级",
       "value": "高",
-      "money": "省钱",
+      "money": "不花钱",
       "time": "顺手",
       "scene": "通用",
       "source": "CN",
@@ -290,13 +535,26 @@
       "benefit": "把预算投向更常用的食物。",
       "boundary": "这是预算优先级建议，不是否认有明确指征的营养补充。",
       "id": 19,
-      "basis": "指南/公共卫生建议"
+      "basis": "指南 / 共识 / 编辑执行建议",
+      "effort": "不用",
+      "returns": [
+        "健康",
+        "钱"
+      ],
+      "evidence": "C",
+      "evidenceNote": "目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。",
+      "sourceKeys": [
+        "CN"
+      ],
+      "cost": "不新增升级预算，可能减少冲动采购。购物前顺手检查基本食物是否齐全，不用买一套新设备。",
+      "benefitDetail": "把预算投向更常用的食物。",
+      "remark": "这是预算优先级建议，不是否认有明确指征的营养补充。 目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。"
     },
     {
       "chapter": "长期做得到",
       "title": "给忙碌的日子准备一个固定组合",
       "value": "高",
-      "money": "少量",
+      "money": "少",
       "time": "几分钟",
       "scene": "通用",
       "source": "CN",
@@ -304,13 +562,25 @@
       "benefit": "忙时也较容易维持多样饮食。",
       "boundary": "只是搭配示例，不代表单餐已经满足所有营养需要。",
       "id": 20,
-      "basis": "指南/公共卫生建议"
+      "basis": "指南 / 共识 / 编辑执行建议",
+      "effort": "一点",
+      "returns": [
+        "时间精力"
+      ],
+      "evidence": "C",
+      "evidenceNote": "目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。",
+      "sourceKeys": [
+        "CN"
+      ],
+      "cost": "按日常预算准备常见食物。每次安排约需几分钟，固定组合可减少临时纠结；需要一点准备。",
+      "benefitDetail": "忙时也较容易维持多样饮食。",
+      "remark": "只是搭配示例，不代表单餐已经满足所有营养需要。 目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。"
     },
     {
       "chapter": "长期做得到",
       "title": "先改一件能重复的小事",
       "value": "高",
-      "money": "不增加",
+      "money": "不花钱",
       "time": "顺手",
       "scene": "通用",
       "source": "CN",
@@ -318,13 +588,25 @@
       "benefit": "降低执行负担，便于观察哪些做法适合自己。",
       "boundary": "这是编辑提供的执行策略，不能当成独立研究结论。",
       "id": 21,
-      "basis": "指南/公共卫生建议"
+      "basis": "指南 / 共识 / 编辑执行建议",
+      "effort": "一点",
+      "returns": [
+        "时间精力"
+      ],
+      "evidence": "C",
+      "evidenceNote": "目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。",
+      "sourceKeys": [
+        "CN"
+      ],
+      "cost": "不额外花钱。从现有习惯里选一个动作，顺手做；仍需要一点持续执行的毅力。",
+      "benefitDetail": "降低执行负担，便于观察哪些做法适合自己。",
+      "remark": "这是编辑提供的执行策略，不能当成独立研究结论。 目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。"
     },
     {
       "chapter": "长期做得到",
       "title": "有疾病时，先核对适用范围",
       "value": "极高",
-      "money": "不增加",
+      "money": "少",
       "time": "几分钟",
       "scene": "特殊情况",
       "source": "WHO",
@@ -332,11 +614,31 @@
       "benefit": "避免把大众建议机械套到自己身上。",
       "boundary": "本指南面向一般健康成年人，不提供疾病治疗或儿童专用食谱。",
       "id": 22,
-      "basis": "指南/公共卫生建议"
+      "basis": "指南 / 共识 / 编辑执行建议",
+      "effort": "不用",
+      "returns": [
+        "健康"
+      ],
+      "evidence": "C",
+      "evidenceNote": "目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。",
+      "sourceKeys": [
+        "WHO"
+      ],
+      "cost": "先整理现有饮食和医嘱通常不花钱，需要几分钟。若需预约诊疗或营养咨询，可能产生费用和等待时间。",
+      "benefitDetail": "避免把大众建议机械套到自己身上。",
+      "remark": "本指南面向一般健康成年人，不提供疾病治疗或儿童专用食谱。 目前依据为指南、公共卫生建议或编辑执行建议；未单独核实这项具体做法的直接干预研究。"
     }
-  ]
+  ],
+  "ratingVersion": "2026-11-05-v2"
 };
-const state={chapter:'',value:new Set(),money:new Set()};const $=id=>document.getElementById(id);const esc=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function buttons(id,values){$(id).replaceChildren();values.forEach(v=>{let b=document.createElement('button');b.textContent=v||'全部章节';b.type='button';b.setAttribute('aria-pressed',id==='chapters'?state.chapter===v:state[id].has(v));b.className=(id==='chapters'?state.chapter===v:state[id].has(v))?'active':'';b.onclick=()=>{if(id==='chapters')state.chapter=v;else state[id].has(v)?state[id].delete(v):state[id].add(v);draw();};$(id).append(b);});}
-function draw(){buttons('chapters',['',...new Set(DATA.items.map(x=>x.chapter))]);buttons('value',['极高','高','一般']);buttons('money',['省钱','不增加','少量']);const q=$('search').value.trim().toLowerCase(),scene=$('scene').value;const rows=DATA.items.filter(x=>(!state.chapter||x.chapter===state.chapter)&&(!state.value.size||state.value.has(x.value))&&(!state.money.size||state.money.has(x.money))&&(!scene||x.scene===scene)&&(!q||JSON.stringify(x).toLowerCase().includes(q)));$('count').textContent=`当前显示 ${rows.length} / ${DATA.items.length} 条`; $('list').innerHTML=rows.map(x=>{let s=DATA.sources[x.source];return `<article><div class="meta"><span class="badge">性价比 · ${esc(x.value)}</span><span>${esc(x.chapter)}</span><span>花钱：${esc(x.money)}</span><span>时间：${esc(x.time)}</span></div><h2><span class="number">${String(x.id).padStart(2,'0')}</span>${esc(x.title)}</h2><p>${esc(x.action)}</p><p><strong>换回什么：</strong>${esc(x.benefit)}</p><p class="boundary"><strong>适用边界：</strong>${esc(x.boundary)}</p><details><summary>查看依据与来源</summary><p>依据类型：指南 / 公共卫生建议。具体场景做法和性价比由编辑整理。</p><p><a href="${s[1]}" target="_blank" rel="noopener">${esc(s[0])} ↗</a> · 查阅：2026-11-05${x.source==='SALT'?' · 当前仅核对搜索摘要，全文待人工复核':''}</p></details></article>`}).join('')||'<div class="empty">没有匹配条目，试试减少筛选条件。</div>';}
-$('search').oninput=draw;$('scene').onchange=draw;$('reset').onclick=()=>{state.chapter='';state.value.clear();state.money.clear();$('search').value='';$('scene').value='';draw()};draw();</script></html>
+const $=id=>document.getElementById(id),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const CHAPTERS=[...new Set(DATA.items.map(x=>x.chapter))],GROUPS=[['value','性价比','编辑判断，同类目标内比较',['极高','高','一般']],['returns','换回什么','收益口径分开，不互相换算',['寿命','健康','钱','时间精力']],['evidence','证据等级','随机试验 · 观察研究 · 共识',['A','B','C']],['money','花钱','通常是否需要额外购买',['不花钱','少','多']],['time','花时间','每次操作的额外负担',['顺手','几分钟','每天占用']],['effort','要毅力','习惯与执行负担的编辑估计',['不用','一点','很多']]];
+const state={chapter:'',scene:new Set(),...Object.fromEntries(GROUPS.map(([k])=>[k,new Set()]))};
+$('filters').innerHTML=GROUPS.map(([k,label,hint])=>`<div class="group"><div class="group-label">${label}<span class="hint">${hint}</span></div><div class="chips" id="f-${k}" role="group" aria-label="${label}筛选"></div></div>`).join('');
+function chipGroup(k,vals){$('f-'+k).replaceChildren(...vals.map(v=>{const b=document.createElement('button');b.className='chip';b.textContent=k==='evidence'?v+' 级':v;b.type='button';b.setAttribute('aria-pressed',state[k].has(v));b.onclick=()=>{state[k].has(v)?state[k].delete(v):state[k].add(v);render()};return b}))}
+function tag(t,c='gray'){return `<span class="tag ${c}">${esc(t)}</span>`}
+function card(x){return `<article class="card" id="e-${x.id}"><div class="card-head"><span class="idx">${x.id}</span><h3>${esc(x.title)}</h3><a class="anchor" href="#e-${x.id}" aria-label="第 ${x.id} 条链接">#</a></div><div class="tags">${tag('性价比 '+x.value,x.value==='一般'?'yellow':'green')}${tag('证据 '+x.evidence+' 级',x.evidence==='A'?'green':x.evidence==='B'?'yellow':'gray')}${x.returns.map(v=>tag('换'+v,'purple')).join('')}${tag(x.money==='不花钱'?'不花钱':'花'+x.money+'量钱')}${tag(x.time)}${tag(x.effort==='不用'?'不用毅力':x.effort==='一点'?'一点毅力':'很多毅力')}</div><p class="advice">${esc(x.action)}</p><dl class="facts"><dt>成本</dt><dd>${esc(x.cost)}</dd><dt>收益</dt><dd>${esc(x.benefitDetail)}</dd><dt>备注</dt><dd>${esc(x.remark)}</dd></dl><details class="sources"><summary>来源 · ${x.sourceKeys.length} 条</summary><ul>${x.sourceKeys.map(k=>`<li><a href="${DATA.sources[k][1]}" target="_blank" rel="noopener">${esc(DATA.sources[k][0])} ↗</a></li>`).join('')}</ul><p>评级依据：${esc(x.basis)}。${esc(x.evidenceNote)}</p><p>查阅日期：2026-11-05。${x.sourceKeys.some(k=>['SUGAR_RCT','SODIUM_RCT','PRODUCE','FIBRE'].includes(k))?'研究结论按公开摘要及检索内容核对，未完成全文质量评价。':''}${x.sourceKeys.includes('SALT')?'国家卫健委减盐页面仅核对搜索摘要，全文待人工复核。':''}</p></details></article>`}
+const descriptions=['先减少饮料、咸汤和缺蔬菜这些常见问题。原本已经做到的，不必再给自己加任务。','普通食物也能搭配好；选择时同时考虑预算、耐受情况与长期习惯。','先让厨房的油盐和食品安全变得可控。','把原则换成点餐时能做的动作，实际成品比备注更重要。','看清宣传词和自己的需求，把有限预算用在基础饮食上。','固定几个容易重复的选择；特殊营养需求另行核对。'];
+function render(){chipGroup('scene',['通用','外卖食堂','自己做饭','特殊情况']);GROUPS.forEach(([k,l,h,vals])=>chipGroup(k,vals));$('chapters').replaceChildren(...['',...CHAPTERS].map((c,i)=>{const b=document.createElement('button');b.className='chapter-btn';b.setAttribute('aria-pressed',state.chapter===c);b.innerHTML=`<span>${c?i+'. '+esc(c):'全部章节'}</span><small>${c?DATA.items.filter(x=>x.chapter===c).length:DATA.items.length}</small>`;b.onclick=()=>{state.chapter=c;render()};return b}));const q=$('q').value.trim().toLowerCase();const rows=DATA.items.filter(x=>(!state.chapter||x.chapter===state.chapter)&&(!state.scene.size||state.scene.has(x.scene))&&GROUPS.every(([k])=>!state[k].size||(Array.isArray(x[k])?x[k].some(v=>state[k].has(v)):state[k].has(x[k])))&&(!q||JSON.stringify(x).toLowerCase().includes(q)));$('count').innerHTML=`当前显示 <strong>${rows.length}</strong> 条，共 ${DATA.items.length} 条`; $('list').innerHTML=CHAPTERS.map((c,i)=>{const rs=rows.filter(x=>x.chapter===c);return rs.length?`<section class="section"><div class="section-head"><h2>${i+1}. ${esc(c)}</h2><span>${rs.length} / ${DATA.items.filter(x=>x.chapter===c).length}</span></div><p class="section-intro">${descriptions[i]}</p>${rs.map(card).join('')}</section>`:''}).join('')||'<div class="empty">没有匹配的条目。减少筛选条件，或换个更短的关键词。</div>'}
+$('q').oninput=render;$('reset').onclick=()=>{state.chapter='';state.scene.clear();GROUPS.forEach(([k])=>state[k].clear());$('q').value='';render()};$('theme').onclick=()=>{const dark=document.body.classList.toggle('dark');$('theme').setAttribute('aria-label',dark?'切换浅色模式':'切换深色模式')};$('mobile').onclick=()=>{const open=$('sidebar').classList.toggle('open');$('mobile').setAttribute('aria-expanded',open)};document.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)){e.preventDefault();$('q').focus()}});render();
+</script></body></html>
