@@ -171,15 +171,10 @@
       "benefitDetail": "成人自由进食试验的综述中，减少膳食糖的干预平均伴随约 0.8 kg 的体重降低；不同试验时长和方法不同，不等于每个人换饮料都会瘦这么多。等能量替换糖与其他碳水时，没有同样的减重差异，说明总能量变化很重要。",
       "remark": "这条优先适合原本经常喝含糖饮料的人。已经主要喝白水的人，不必为“更健康的水”升级消费。白水替代饮料不能抵消全天能量过量，也不要求停止正常吃水果和奶类。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "07a5230895b9e18e4ea393ae8d18a6e6c85ed69610f754e7247322717013f35e"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "07a5230895b9e18e4ea393ae8d18a6e6c85ed69610f754e7247322717013f35e",
+      "announceCreated": false
     },
     {
       "chapter": "先改最划算的",
@@ -205,15 +200,10 @@
       "benefitDetail": "这是一种减少钠摄入的实际办法。减钠随机试验汇总支持血压下降，但没有研究证明“每次少喝半碗汤”固定能降低多少血压，因为汤的含盐量和实际喝掉的量差异很大。",
       "remark": "不要为了少喝汤而少吃已经配好的蔬菜、肉蛋豆和主食。对需要限钠的患者，餐厅饮食的总钠仍可能偏高，应结合医嘱和其他餐安排。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "85ebe824c0407238fc42e224ef6d817470c0bc2859eef83e5ce7632aa86b0e6e"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "85ebe824c0407238fc42e224ef6d817470c0bc2859eef83e5ce7632aa86b0e6e",
+      "announceCreated": false
     },
     {
       "chapter": "先改最划算的",
@@ -240,15 +230,10 @@
       "benefitDetail": "中国指南建议成人每天至少 300 g 新鲜蔬菜、深色蔬菜约占一半。队列汇总发现较高蔬果摄入与较低死亡风险相关，但不能把这个关联换成“今天多点一份菜就少多少风险”。执行目标先看全天是否持续吃够。",
       "remark": "蔬菜用大量油、盐和浓汁烹调后，仍要把这些调味成本算进去。土豆等薯类主要按主食安排，不能简单认为一盘薯条等于一份普通蔬菜。肾病等需限制钾的情况另行评估。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "517096d77e08d89ef9ff38cea26bce00463d2f236d18ea0ddee917fd8af4312b"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "517096d77e08d89ef9ff38cea26bce00463d2f236d18ea0ddee917fd8af4312b",
+      "announceCreated": false
     },
     {
       "chapter": "先改最划算的",
@@ -276,15 +261,10 @@
       "benefitDetail": "中国指南给一般成年人的参考量是每天 200–350 g 新鲜水果。长期队列支持蔬果摄入与较低死亡风险相关，收益不是某一品种独有；研究也不能证明价格更贵、味道更酸就更健康。",
       "remark": "水果不是不限量零食。果干、果酱和果汁不能按相同体积直接替代鲜果；糖尿病患者需把份量和进餐安排纳入整体管理，不必自行把所有水果禁掉。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "ffc217d56bba2c846ea2b4f0b79a6c84b014977c4e52c489ac043748dca019b4"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "ffc217d56bba2c846ea2b4f0b79a6c84b014977c4e52c489ac043748dca019b4",
+      "announceCreated": false
     },
     {
       "chapter": "吃什么更值",
@@ -312,15 +292,10 @@
       "benefitDetail": "全谷和膳食纤维的系统综述支持较高摄入与较低慢性病、死亡风险相关；其中死亡结局主要来自观察研究。干预研究还观察到部分体重、血脂等指标改善，但不能由此承诺固定的延寿年数。",
       "remark": "突然大量增加纤维可能腹胀，应按耐受调整。胃肠疾病活动期、吞咽或消化功能受限者不宜照抄粗硬杂粮搭配；精制主食也可以是特定情况下的合适选择。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "e2c475bd18ceec69f4e0eda404bad5a19935787455a54a5a3b0b470bea071f9f"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "e2c475bd18ceec69f4e0eda404bad5a19935787455a54a5a3b0b470bea071f9f",
+      "announceCreated": false
     },
     {
       "chapter": "吃什么更值",
@@ -347,15 +322,10 @@
       "benefitDetail": "大豆提供蛋白质，增加蛋白质来源的选择，也有助于减少对加工肉和昂贵补剂的依赖。指南支持经常吃大豆制品；本条没有据此计算豆腐能降低多少疾病风险。",
       "remark": "大豆过敏者不适用。不同豆腐的钙含量受凝固剂和工艺影响，不能一概按“都很补钙”购买；肾病等特殊饮食需结合总蛋白、钾磷管理。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "fc6e0c30e975d92af81af5432a5595238c313aade76d29230204ee59c761e9d4"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "fc6e0c30e975d92af81af5432a5595238c313aade76d29230204ee59c761e9d4",
+      "announceCreated": false
     },
     {
       "chapter": "吃什么更值",
@@ -382,15 +352,10 @@
       "benefitDetail": "奶类能提供蛋白质和钙等营养。卫健委科普将每天约 300–500 mL 液态奶或相当量奶制品作为适宜参考；这是一般饮食建议，不表示喝得越多越好，也不是用奶替代完整正餐。",
       "remark": "牛奶蛋白过敏和乳糖不耐受不是一回事。喝奶腹胀可参看第 34 条逐步选择；儿童、肾病及其他特殊需求，不直接照搬一般成人用量。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "e5f1d954d0c26e10d36d66e84f380886e3e10d1ede2705058f134f7485533e0d"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "e5f1d954d0c26e10d36d66e84f380886e3e10d1ede2705058f134f7485533e0d",
+      "announceCreated": false
     },
     {
       "chapter": "吃什么更值",
@@ -417,15 +382,10 @@
       "benefitDetail": "长期队列研究发现红肉摄入变化及其替换食物与后续死亡风险相关，其中加工肉值得优先减少。它提供的是长期饮食组合的观察线索，不是“吃一根香肠就增加多少风险”的个人计算器。",
       "remark": "相关研究受原本人群饮食、吸烟和其他习惯影响，不能把所有关联都解释成因果。铁缺乏、营养不足或需要特殊蛋白安排的人，应一起考虑替换后是否仍够吃。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "f05f9f47b5a3f8afd920728608c7f7ea188a151fb574285a247cd9e0473e8667"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "f05f9f47b5a3f8afd920728608c7f7ea188a151fb574285a247cd9e0473e8667",
+      "announceCreated": false
     },
     {
       "chapter": "吃什么更值",
@@ -452,15 +412,10 @@
       "benefitDetail": "Bao 等跟踪两大队列，观察到经常吃坚果的人死亡风险较低。研究中的人也有其他生活方式差异，所以不能证明随意加一份坚果就能延寿，更不能把坚果当作降脂药或保健品。",
       "remark": "坚果能量密度高，牙口差或吞咽困难者需要调整质地；过敏者应回避。儿童有噎食风险，本指南的成人建议不能原样用于幼儿。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "ce100dd6df648768923633c8050ee3006378d682d8d529abf7607a807346be0b"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "ce100dd6df648768923633c8050ee3006378d682d8d529abf7607a807346be0b",
+      "announceCreated": false
     },
     {
       "chapter": "中国人的厨房",
@@ -486,15 +441,10 @@
       "benefitDetail": "让隐形用油变得可见，有助于在不牺牲主食、蛋白质和蔬菜份量的情况下调整能量来源。收益取决于原本用油是否较多，以及减少后是否从其他食物补回能量；没有固定的个人减重保证。",
       "remark": "脂肪是必要营养来源，目标不是完全无油。还要看用什么油替代什么油，饱和脂肪的选择见第 24 条；过瘦或营养不足的人不应自行大幅削减能量。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "e650a5ea8cfe3259a23c2d5740af3ff1ee23b8dcc8409964d0dd1dd88070e939"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "e650a5ea8cfe3259a23c2d5740af3ff1ee23b8dcc8409964d0dd1dd88070e939",
+      "announceCreated": false
     },
     {
       "chapter": "中国人的厨房",
@@ -520,15 +470,10 @@
       "benefitDetail": "WHO 建议成人每天钠少于 2,000 mg，约等于盐少于 5 g，包含食物和调料的全部来源。133 项随机试验汇总支持减钠降低血压，但平均效应随基线血压、减钠量和时长变化，不能保证每个人得到同一结果。",
       "remark": "这里不是让人把钠降到零。是否使用含钾低钠盐还要看肾功能和药物，见第 23 条；单凭“我吃得淡”也不能替代血压测量和原有治疗。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "c57970052eed353a63449513e64308fd04f3e570bb185894dbcf2bbc796af382"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "c57970052eed353a63449513e64308fd04f3e570bb185894dbcf2bbc796af382",
+      "announceCreated": false
     },
     {
       "chapter": "中国人的厨房",
@@ -554,15 +499,10 @@
       "benefitDetail": "减少生食中的微生物转移到即食食品的机会。这类食品安全原则来自风险评估和操作指导，家庭里很难给出“洗一次案板减少多少感染”的可信精确数值，所以不编造百分比。",
       "remark": "冷冻、酒腌、醋泡都不能代替充分加热和防止交叉污染。尤其为孕妇、老人或免疫功能较弱者备餐时，不应把“以前这么吃没事”作为安全依据。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "85e9d92840a573bc468efa3effa14464645dbe8fb4dd4a84092310dea8db6072"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "85e9d92840a573bc468efa3effa14464645dbe8fb4dd4a84092310dea8db6072",
+      "announceCreated": false
     },
     {
       "chapter": "中国人的厨房",
@@ -588,15 +528,10 @@
       "benefitDetail": "加拿大卫生部建议熟食在两小时内冷藏，复热内部达到 74°C；这些是家庭食品安全参考，不是食物在第 121 分钟才突然变坏的界线。按时间和温度管理，比单纯纠结“隔夜”两个字更有用。",
       "remark": "气温很高时要更快处理，不能一律照搬两小时。热透也不能挽救已经产生某些毒素的食物。米饭等淀粉食物的补充要求见第 39 条。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "3547491f96b18f76d79f9209fcadc635a4dc168905cc3c94fb2d2f934eb2f10e"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "3547491f96b18f76d79f9209fcadc635a4dc168905cc3c94fb2d2f934eb2f10e",
+      "announceCreated": false
     },
     {
       "chapter": "外卖与食堂",
@@ -622,15 +557,10 @@
       "benefitDetail": "这是一种减少漏掉基本食物类别的检查方法，目的是让外卖更接近日常均衡饮食。指南支持多样搭配，但没有研究为某一家店的套餐作营养认证，也不能保证所有人的份量都一样合适。",
       "remark": "减重、体力劳动、运动训练和食量小的人需求不同。同一份套餐的能量和蛋白质可能并不适合每个人；特殊疾病仍需按个人计划调整。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "047b14134cb37cd333cdc676670c8a30cb206b69036f1b8577786f3fd5abf30c"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "047b14134cb37cd333cdc676670c8a30cb206b69036f1b8577786f3fd5abf30c",
+      "announceCreated": false
     },
     {
       "chapter": "外卖与食堂",
@@ -656,15 +586,10 @@
       "benefitDetail": "给降低钠和过多烹调油创造条件，但不能据一行备注认定已经低盐低脂。减钠的降血压效应有随机试验支持，外卖里能少掉多少钠则必须看实际配方与执行。",
       "remark": "不必把所有带酱菜都列为禁食。若为疾病治疗严格控钠，餐厅的未知量可能仍太大；需要更明确的餐食安排，而不只是靠备注。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "60e5b5e9e2da46f3642b61dc3ad35c2c72fae78f8811846793432bfa7a52ef56"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "60e5b5e9e2da46f3642b61dc3ad35c2c72fae78f8811846793432bfa7a52ef56",
+      "announceCreated": false
     },
     {
       "chapter": "外卖与食堂",
@@ -691,15 +616,10 @@
       "benefitDetail": "主要收益是减少浪费和被动多吃，能否减重仍取决于长期总摄入。这里没有把聚餐点菜策略与死亡风险挂钩，也不声称小份一定比大份更省钱，需要看实际菜单和分量。",
       "remark": "食量差异很大，不按性别或体型武断分配。担心食物浪费可以从少点开始，而不是要求已经饱的人继续吃完。储存问题按第 13、38、39 条处理。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "4f53783067b6f99f537a1b270b532cd48d1591a1ef4335b4f804ec126f0ce4b8"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "4f53783067b6f99f537a1b270b532cd48d1591a1ef4335b4f804ec126f0ce4b8",
+      "announceCreated": false
     },
     {
       "chapter": "少交饮食学费",
@@ -726,15 +646,10 @@
       "benefitDetail": "WHO 明确酒精不存在无风险的饮用方式，风险受剂量、频率和个人状态影响。减少暴露是降低相关风险的方向，但不能给每个人计算固定的寿命收益，更不能用某些观察研究的“护心关联”推荐开始饮酒。",
       "remark": "已有依赖，或停酒出现手抖、心慌、出汗等症状时，不应自行突然停酒，应联系医疗服务评估戒断风险。孕期、驾驶和某些用药情境有更严格限制。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "9c1437342686589ab067eb1ae584c31dc3402d5e2ecd789570b9ef517a9b75b7"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "9c1437342686589ab067eb1ae584c31dc3402d5e2ecd789570b9ef517a9b75b7",
+      "announceCreated": false
     },
     {
       "chapter": "少交饮食学费",
@@ -761,15 +676,10 @@
       "benefitDetail": "收益是更准确地判断食物，而不是直接治疗糖尿病或保证减肥。例如零蔗糖饼干可以依然是能量较高的零食；原味奶中的天然乳糖也不应因此被一概当作需要清零的添加糖。判断应服务于真实饮食目标。",
       "remark": "不同国家和产品的标示项目不同，不能要求中国包装一定像美国标签那样逐列写添加糖；也不能把“碳水 20 g”读成“添加糖 20 g”。用药控糖者需按专业方案管理碳水。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "0f049e7edcf29c970019f55f485ceef7be123061c5f1af18464f6832ec3eb562"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "0f049e7edcf29c970019f55f485ceef7be123061c5f1af18464f6832ec3eb562",
+      "announceCreated": false
     },
     {
       "chapter": "少交饮食学费",
@@ -797,15 +707,10 @@
       "benefitDetail": "主要收益是减少没有明确目标的消费和食物浪费，让预算支持更完整的饮食。指南强调食物类别和搭配，不要求某个品牌；但这也不是证明所有贵食品都没价值，口味和便利可以有自己的价格。",
       "remark": "确有缺乏、孕期需要或特定疾病时，针对性补充可能必要，不应因“普通食物更值”就擅自停用专业建议的补剂或营养制剂。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "bf51510f8b8251d25334ee5fd78b238d410aa1bdfbecc5a2baaff5ba00f834c2"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "bf51510f8b8251d25334ee5fd78b238d410aa1bdfbecc5a2baaff5ba00f834c2",
+      "announceCreated": false
     },
     {
       "chapter": "长期做得到",
@@ -833,15 +738,10 @@
       "benefitDetail": "可能减少临时决策，让忙时仍能安排主食、蛋白质和蔬果。这里的收益是执行便利，不声称这个固定组合经过试验能增加寿命，也不保证示例的营养已经覆盖每个人一餐的全部需要。",
       "remark": "份量按食量、活动和全天饮食调整。没有冷藏条件时不要提前存需要冷链的熟食；糖尿病、过敏和特殊营养需求者需要改用合适的组合。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "244f66e5da8b9028d362f32a4d0f356309c01ef843cdb3d1ce34e2d83d6fe575"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "244f66e5da8b9028d362f32a4d0f356309c01ef843cdb3d1ce34e2d83d6fe575",
+      "announceCreated": false
     },
     {
       "chapter": "长期做得到",
@@ -867,15 +767,10 @@
       "benefitDetail": "收益在于看清做法是否适合自己的生活，并减少同时改变太多事情造成的负担。这里没有给“先改一件事”承诺具体减重或疾病风险数字，也不把打卡次数当成营养质量评分。",
       "remark": "这不适用于需要立即回避的食物过敏或明确食品安全风险，那些不能等一周慢慢试。若记录饮食让焦虑、内疚或限制进食加重，应停止以打卡方式管理并寻求支持。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "00575522a9086eb343cb6e75182c4eeb359534d18cb9030c609372e114cdbdb5"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "00575522a9086eb343cb6e75182c4eeb359534d18cb9030c609372e114cdbdb5",
+      "announceCreated": false
     },
     {
       "chapter": "长期做得到",
@@ -902,15 +797,10 @@
       "benefitDetail": "减少把一般成人建议误套到特殊情况的机会。以低钠盐为例，其公共卫生建议明确排除了部分钾排泄受限的人群；这种边界比给每个人统一增加一条“养生任务”更有用。",
       "remark": "不能自行用本指南替代原有治疗或调整药物。持续明显体重下降、进食困难等问题要就医评估，而不是只靠更换食谱拖延。儿童和孕期需求也需要专门指导。",
       "createdAt": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "修改",
-          "summary": "重写说明、成本收益和适用边界，补充证据对应关系。"
-        }
-      ],
-      "contentFingerprint": "f7a27648d371cfd77c98374f2147956a87850767e6bc1dabcb4750bbdfc52bee"
+      "updatedAt": null,
+      "changes": [],
+      "contentFingerprint": "f7a27648d371cfd77c98374f2147956a87850767e6bc1dabcb4750bbdfc52bee",
+      "announceCreated": false
     },
     {
       "id": 23,
@@ -938,14 +828,9 @@
       "basis": "随机试验或其系统综述；需结合试验质量和适用范围",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "b1bfc8e1e02d2a84ca1244023e11859343653c88e3ad847a639cbf78e5251f8e"
+      "changes": [],
+      "contentFingerprint": "b1bfc8e1e02d2a84ca1244023e11859343653c88e3ad847a639cbf78e5251f8e",
+      "announceCreated": false
     },
     {
       "id": 24,
@@ -972,14 +857,9 @@
       "basis": "随机试验或其系统综述；需结合试验质量和适用范围",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "8d10a97ec282ce5189b2e04a9816bfa2e68d304d9fdd5961e780e04d359cb2fa"
+      "changes": [],
+      "contentFingerprint": "8d10a97ec282ce5189b2e04a9816bfa2e68d304d9fdd5961e780e04d359cb2fa",
+      "announceCreated": false
     },
     {
       "id": 25,
@@ -1007,14 +887,9 @@
       "basis": "指南、公共卫生操作建议或编辑执行方法",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "55fc3044e8aee42288c4265687c7359ec0c80ebdc72032a3b3e5a09fd8b79be3"
+      "changes": [],
+      "contentFingerprint": "55fc3044e8aee42288c4265687c7359ec0c80ebdc72032a3b3e5a09fd8b79be3",
+      "announceCreated": false
     },
     {
       "id": 26,
@@ -1042,14 +917,9 @@
       "basis": "指南、公共卫生操作建议或编辑执行方法",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "c1636a03b0bf9375a389b64f3b83f51057f8e78b840bb4f2e814b352d726a1e1"
+      "changes": [],
+      "contentFingerprint": "c1636a03b0bf9375a389b64f3b83f51057f8e78b840bb4f2e814b352d726a1e1",
+      "announceCreated": false
     },
     {
       "id": 27,
@@ -1077,14 +947,9 @@
       "basis": "指南、公共卫生操作建议或编辑执行方法",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "10851a61b1127b1da7939abd1bbd48c1bd643851484ae39f2d8c4a3ff6214a11"
+      "changes": [],
+      "contentFingerprint": "10851a61b1127b1da7939abd1bbd48c1bd643851484ae39f2d8c4a3ff6214a11",
+      "announceCreated": false
     },
     {
       "id": 28,
@@ -1112,14 +977,9 @@
       "basis": "指南、公共卫生操作建议或编辑执行方法",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "cb2bd223d9abd4a657553f0d8915fc829e2132b72acd2daa0d35d993e13f4a59"
+      "changes": [],
+      "contentFingerprint": "cb2bd223d9abd4a657553f0d8915fc829e2132b72acd2daa0d35d993e13f4a59",
+      "announceCreated": false
     },
     {
       "id": 29,
@@ -1147,14 +1007,9 @@
       "basis": "随机试验或其系统综述；需结合试验质量和适用范围",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "ff0b517b0b422d805430dca0f7d2ed9cf9ce0d63cc7dacdf92d3e0bcc36d189d"
+      "changes": [],
+      "contentFingerprint": "ff0b517b0b422d805430dca0f7d2ed9cf9ce0d63cc7dacdf92d3e0bcc36d189d",
+      "announceCreated": false
     },
     {
       "id": 30,
@@ -1182,14 +1037,9 @@
       "basis": "随机试验或其系统综述；需结合试验质量和适用范围",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "f7de56da3712aa6e727b972b1ea2df78361e34dc945e1375debf78320ff3e297"
+      "changes": [],
+      "contentFingerprint": "f7de56da3712aa6e727b972b1ea2df78361e34dc945e1375debf78320ff3e297",
+      "announceCreated": false
     },
     {
       "id": 31,
@@ -1217,14 +1067,9 @@
       "basis": "随机试验或其系统综述；需结合试验质量和适用范围",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "31f50d175586b2d01d5c0d146a376afd3c31802d29e8637df4e3ab38b9e0f8f8"
+      "changes": [],
+      "contentFingerprint": "31f50d175586b2d01d5c0d146a376afd3c31802d29e8637df4e3ab38b9e0f8f8",
+      "announceCreated": false
     },
     {
       "id": 32,
@@ -1252,14 +1097,9 @@
       "basis": "随机试验或其系统综述；需结合试验质量和适用范围",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "321af35a88e84a85a4611c4ac438ff08ee6f6077e4c39d1c1ba98b293eeb3c7c"
+      "changes": [],
+      "contentFingerprint": "321af35a88e84a85a4611c4ac438ff08ee6f6077e4c39d1c1ba98b293eeb3c7c",
+      "announceCreated": false
     },
     {
       "id": 33,
@@ -1286,14 +1126,9 @@
       "basis": "指南、公共卫生操作建议或编辑执行方法",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "f75417a0af01578233d5a5a83f6727937b7bdbbd6df91fdfbf21d8a5904c5123"
+      "changes": [],
+      "contentFingerprint": "f75417a0af01578233d5a5a83f6727937b7bdbbd6df91fdfbf21d8a5904c5123",
+      "announceCreated": false
     },
     {
       "id": 34,
@@ -1321,14 +1156,9 @@
       "basis": "指南、公共卫生操作建议或编辑执行方法",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "e650927806908d0b31aca82243150d6f211e7b0942a7f890957db62718d28faa"
+      "changes": [],
+      "contentFingerprint": "e650927806908d0b31aca82243150d6f211e7b0942a7f890957db62718d28faa",
+      "announceCreated": false
     },
     {
       "id": 35,
@@ -1356,14 +1186,9 @@
       "basis": "指南、公共卫生操作建议或编辑执行方法",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "ffd8b2d41cc3cfc7ec2a51210760f410e97faa81ef5ee71eeaa4646c843b1734"
+      "changes": [],
+      "contentFingerprint": "ffd8b2d41cc3cfc7ec2a51210760f410e97faa81ef5ee71eeaa4646c843b1734",
+      "announceCreated": false
     },
     {
       "id": 36,
@@ -1390,14 +1215,9 @@
       "basis": "指南、公共卫生操作建议或编辑执行方法",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "52f08357d012755cf6f9bee1b33159c3ee1ee9a2116ed23d257934a4e08208da"
+      "changes": [],
+      "contentFingerprint": "52f08357d012755cf6f9bee1b33159c3ee1ee9a2116ed23d257934a4e08208da",
+      "announceCreated": false
     },
     {
       "id": 37,
@@ -1425,14 +1245,9 @@
       "basis": "随机试验或其系统综述；需结合试验质量和适用范围",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "e299f5dc21fced4dfb15d7a2b93178e4edf743f058f8760e70e555081d01a5ae"
+      "changes": [],
+      "contentFingerprint": "e299f5dc21fced4dfb15d7a2b93178e4edf743f058f8760e70e555081d01a5ae",
+      "announceCreated": false
     },
     {
       "id": 38,
@@ -1459,14 +1274,9 @@
       "basis": "指南、公共卫生操作建议或编辑执行方法",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "1d7a887753921ab77947a393f5f9a50613a7c5cc8bcb7c04328b19b9dac66034"
+      "changes": [],
+      "contentFingerprint": "1d7a887753921ab77947a393f5f9a50613a7c5cc8bcb7c04328b19b9dac66034",
+      "announceCreated": false
     },
     {
       "id": 39,
@@ -1493,14 +1303,9 @@
       "basis": "指南、公共卫生操作建议或编辑执行方法",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "b6415d2340246ef3299125a1e324adfa4fbc2af70015c79748facaf4163748c5"
+      "changes": [],
+      "contentFingerprint": "b6415d2340246ef3299125a1e324adfa4fbc2af70015c79748facaf4163748c5",
+      "announceCreated": false
     },
     {
       "id": 40,
@@ -1527,14 +1332,9 @@
       "basis": "指南、公共卫生操作建议或编辑执行方法",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "87c3f2c90bcc1eb6e4faf5ac4248508db84d941dfe955d9289a5256c6965b37c"
+      "changes": [],
+      "contentFingerprint": "87c3f2c90bcc1eb6e4faf5ac4248508db84d941dfe955d9289a5256c6965b37c",
+      "announceCreated": false
     },
     {
       "id": 41,
@@ -1561,14 +1361,9 @@
       "basis": "指南、公共卫生操作建议或编辑执行方法",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "bab71df92fc72342af30490cb3523a384e9fb52361ee7f830263b07eaa521243"
+      "changes": [],
+      "contentFingerprint": "bab71df92fc72342af30490cb3523a384e9fb52361ee7f830263b07eaa521243",
+      "announceCreated": false
     },
     {
       "id": 42,
@@ -1595,14 +1390,9 @@
       "basis": "指南、公共卫生操作建议或编辑执行方法",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "aab7a0ef12b93b957d48abe3237f93cc7c90567e14d2bbe057f39add2c0450fb"
+      "changes": [],
+      "contentFingerprint": "aab7a0ef12b93b957d48abe3237f93cc7c90567e14d2bbe057f39add2c0450fb",
+      "announceCreated": false
     },
     {
       "id": 43,
@@ -1629,14 +1419,9 @@
       "basis": "观察性研究及其汇总；支持关联，不能直接证明因果",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "58100ed64e18e1f553e033f86f49311301c5f40d5270353479ccd838a4eb547d"
+      "changes": [],
+      "contentFingerprint": "58100ed64e18e1f553e033f86f49311301c5f40d5270353479ccd838a4eb547d",
+      "announceCreated": false
     },
     {
       "id": 44,
@@ -1664,14 +1449,9 @@
       "basis": "观察性研究及其汇总；支持关联，不能直接证明因果",
       "createdAt": "2026-11-05",
       "updatedAt": null,
-      "changes": [
-        {
-          "date": "2026-11-05",
-          "type": "新增",
-          "summary": "新增详细条目并核对来源。"
-        }
-      ],
-      "contentFingerprint": "9c7b51cd9aef8c279506a197a4bc46eaeb08245e342210024c21bbbbd871869b"
+      "changes": [],
+      "contentFingerprint": "9c7b51cd9aef8c279506a197a4bc46eaeb08245e342210024c21bbbbd871869b",
+      "announceCreated": false
     }
   ],
   "ratingVersion": "2026-11-05-v3",

@@ -25,7 +25,7 @@ def build(root):
         for k in x['sourceKeys']:
             if k not in d['sourceDetails']:raise ValueError(f'Unknown source {k}')
         fp=fingerprint(x,d['sourceDetails'])
-        x.setdefault('createdAt',today);x.setdefault('updatedAt',None)
+        x.setdefault('createdAt',today);x.setdefault('updatedAt',None);x.setdefault('announceCreated',True)
         x.setdefault('changes',[{'date':x['createdAt'],'type':'新增','summary':'首次发布。'}])
         if x.get('contentFingerprint') and x['contentFingerprint']!=fp:
             x['updatedAt']=today
@@ -42,12 +42,13 @@ def build(root):
         out=f'# {number}. {c["title"]}\n\n{c["description"]}\n\n'
         for x in [x for x in d['items'] if x['chapter']==c['title']]:
             tags=f"**性价比 {x['value']}** · **证据 {x['evidence']} 级** · 换回：{'、'.join(x['returns'])} · 花钱：{x['money']} · 时间：{x['time']} · 毅力：{x['effort']}"
-            dt=x['updatedAt'] or x['createdAt'];tp='修改' if x['updatedAt'] else '新增'
-            out+=f"## {x['id']:02d} · {x['title']}\n\n{tags} · **{dt} {tp}**\n\n{x['action']}\n\n### 成本\n\n{x['cost']}\n\n### 收益\n\n{x['benefitDetail']}\n\n### 备注\n\n{x['remark']}\n\n### 来源与证据范围\n\n**为什么是 {x['evidence']} 级：** {x['evidenceNote']}\n\n"
+            dt=x['updatedAt'] or (x['createdAt'] if x['announceCreated'] else None);tp='修改' if x['updatedAt'] else '新增'
+            stamp=f' · **{dt} {tp}**' if dt else ''
+            out+=f"## {x['id']:02d} · {x['title']}\n\n{tags}{stamp}\n\n{x['action']}\n\n### 成本\n\n{x['cost']}\n\n### 收益\n\n{x['benefitDetail']}\n\n### 备注\n\n{x['remark']}\n\n### 来源与证据范围\n\n**为什么是 {x['evidence']} 级：** {x['evidenceNote']}\n\n"
             for k in x['sourceKeys']:
                 s=d['sourceDetails'][k]
                 out+=f"- [{s['title']}]({s['url']})\n  - 类型：{s['type']}。支持：{s['supports']}。\n  - 核实：{s['status']}；查阅日期：{s['checkedAt']}。\n"
-            out+='\n<details><summary>修改记录</summary>\n\n'+''.join(f"- {h['date']} · {h['type']}：{h['summary']}\n" for h in reversed(x['changes']))+'\n</details>\n\n'
+            if x['changes']:out+='\n<details><summary>修改记录</summary>\n\n'+''.join(f"- {h['date']} · {h['type']}：{h['summary']}\n" for h in reversed(x['changes']))+'\n</details>\n\n'
         (book/f'{number:02d}.md').write_text(out)
     readme=f'''# 高性价比饮食指南
 
@@ -70,7 +71,7 @@ def build(root):
 
 A/B/C 是研究设计的简化索引，**不是正式 GRADE 质量评价**。A 级也可能样本小、随访短或结果不确定。若研究只支持血压、体重改善，不自动标“换寿命”；若操作本身只有实践依据，不能直接继承相关原则的 A 级。
 
-每条标签后显示真实的“某月某日新增／改过”，点日期可看修改记录。排版调整不更新条目日期。
+当前版本作为基线，条目不显示日期提示。以后正文或评级实质修改后，才显示“某月某日改过”；点日期可看记录。排版调整不触发提示。
 
 ## 目录
 
@@ -95,8 +96,8 @@ A/B/C 是研究设计的简化索引，**不是正式 GRADE 质量评价**。A �
         used=', '.join(str(x['id']) for x in d['items'] if k in x['sourceKeys'])
         source_md+=f"## {k} · {s['title']}\n\n[原始链接]({s['url']})\n\n- 类型：{s['type']}\n- 支持范围：{s['supports']}\n- 核实状态：{s['status']}\n- 查阅日期：{s['checkedAt']}\n- 用于条目：{used}\n\n"
     (root/'docs/SOURCES.md').write_text(source_md)
-    ch='# 更新记录\n\n## 2026-11-05 · 详细扩充版\n\n从 22 条扩充到 44 条，重写原有条目，加入研究范围、核实状态、条目日期与自动同步工具。保留既有条目 ID，网页锚点仍使用 e-ID。\n\n日期表示站内实质内容变更，不等于论文发表日期，也不表示当天新增的研究。既有 22 条为改写，后续 22 条为新增，均如实标记本次日期。\n\n## 逐条记录\n\n'
-    ch+=''.join(f"- [{x['id']:02d} {x['title']}](https://eiei2007.github.io/HowToEatBetter/#e-{x['id']})：{x['updatedAt'] or x['createdAt']} {'修改' if x['updatedAt'] else '新增'}\n" for x in d['items'])
+    ch='# 更新记录\n\n## 2026-11-05 · 详细扩充版\n\n从 22 条扩充到 44 条，重写原有条目，加入研究范围、核实状态、条目日期与自动同步工具。保留既有条目 ID，网页锚点仍使用 e-ID。\n\n日期表示站内实质内容变更，不等于论文发表日期，也不表示当天新增的研究。当前 44 条作为基线，不显示新增或修改提示。以后产生实质内容变更时再记录日期。\n\n## 逐条记录\n\n'
+    ch+=''.join(f"- [{x['id']:02d} {x['title']}](https://eiei2007.github.io/HowToEatBetter/#e-{x['id']})：{x['updatedAt'] or x['createdAt']} {'修改' if x['updatedAt'] else '新增'}\n" for x in d['items'] if x['updatedAt'] or x['announceCreated']) or '尚无基线之后的条目更新。\n'
     (root/'docs/CHANGELOG.md').write_text(ch)
     print(f'Built {n} entries, {nc} chapters, {ns} sources')
 
